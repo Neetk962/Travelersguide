@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Forecast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href= "style.css">
 </head>
 <body>
+    <main id="start">
+    <header id="header">
+        Weather Forecast
+    </header>  
+    <nav class="flex-col">
+
+ <section id="inputCity">
+    <h2 id="searchCity">Find City
+        <input type="text" id="searchText" /> <br />
+              <button id="searchBtn" class="btn btn-primary">Search</button>
+             </section>
+             <hr>
+        <section id="savedCities">
+          <ul id="cityBtns" type="button"></ul>
+        </section>
+
+            </nav>
+            <main>
+                <section class="results" id="results">
+                    <div id="currentWeather">
+                        <h2 id="cityName"></h2>
+                        <div id="icon">
+                            <img id="conditionIcon" src="" alt="Condition icon" />
+                            
+
+                        </div>
+                    </div>
+                    <p1 id="temperature"></p1>
+                    <p1 id="wind"></p1>
+                    <p1 id="humid"></p1>
+
+                </section>
+                <section class="tureForecast" id="nextdays">
+                    <h3 id="fiveDayHead"> Five Day Forecast</h3>
+                    <div id="forecast">
+
+                    </div>
+
+
+
+
+
+                </section>
+
+            </main>
+
     
+
+
+    <script src="script.js"> </script>
 </body>
 </html>
+
+
+
