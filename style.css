@@ -87,11 +87,11 @@
     display: flex;
   }
   
-  #forecast {
+  /* #forecast {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
     margin-left: 85px;
     margin-top: 0;
-  }
+  } */
