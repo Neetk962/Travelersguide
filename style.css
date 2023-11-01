@@ -81,6 +81,10 @@
     margin-left: 30px;
     padding: 5px;
   }
+
+#forecastBoxes {
+    display: flex;
+  }
   
   #forecast {
     display: inline-flex;
